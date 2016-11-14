@@ -25,11 +25,11 @@ To view the output of each MIPS binary file, please refer to the .dis files prov
 
 ## Compile and Run 
 
-g++ -O3 disassembler.cpp -o disassembler -std=c++11
+    g++ -O3 disassembler.cpp -o disassembler -std=c++11
 
 Run with one of the provided mips binary file 
 
-./disassembler *.mips
+    ./disassembler *.mips
 
 ## Contributors
 
