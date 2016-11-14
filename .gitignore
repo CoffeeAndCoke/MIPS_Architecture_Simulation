@@ -36,4 +36,7 @@ ompiled source #
 ehthumbs.db
 Thumbs.db
 
+# Other Files #
 *.swp
+*.project
+*.cproject
