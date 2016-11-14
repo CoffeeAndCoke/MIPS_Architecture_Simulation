@@ -11,13 +11,15 @@ This program reads MIPS machine instructions from a (simplified) binary executab
 
 The program will disassemble the test1.mips binary file and print out the machine instructions in that file like so:
 
-MIPS Disassembler
-400000: sll $t1, $zero, 2
-400004: unimplemented
-400008: lw $t0, 0($t1)
-40000c: bne $t0, $s5, 400018
-400010: unimplemented
-400014: j 400000
+```
+    MIPS Disassembler
+    400000: sll $t1, $zero, 2
+    400004: unimplemented
+    400008: lw $t0, 0($t1)
+    40000c: bne $t0, $s5, 400018
+    400010: unimplemented
+    400014: j 400000
+```
 
 To view the output of each MIPS binary file, please refer to the .dis files provided in the src directory to view the output of each MIPS binary file. 
 
